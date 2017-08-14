@@ -1,0 +1,17 @@
+{
+	"count":12,
+	"levels":[
+		{"number":1, "bg":"map0001y-hd.png", "data":"level1.data"},
+		{"number":2, "bg":"map0002y-hd.png", "data":"level2.data"},
+		{"number":3, "bg":"map0003y-hd.png", "data":"level3.data"},
+		{"number":4, "bg":"map0004y-hd.png", "data":"level4.data"},
+		{"number":5, "bg":"map0005y-hd.png", "data":"level5.data"},
+		{"number":6, "bg":"map0006y-hd.png", "data":"level6.data"},
+		{"number":7, "bg":"map0007y-hd.png", "data":"level7.data"},
+		{"number":8, "bg":"map0008y-hd.png", "data":"level8.data"},
+		{"number":9, "bg":"map0009y-hd.png", "data":"level9.data"},
+		{"number":10, "bg":"map0010y-hd.png", "data":"level0.data"},
+		{"number":11, "bg":"map0011y-hd.png", "data":"level1.data"},
+		{"number":12, "bg":"map0012y-hd.png", "data":"level2.data"}
+	]
+}

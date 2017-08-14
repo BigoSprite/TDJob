@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="30" height="20" tilewidth="32" tileheight="32" nextobjectid="33">
+ <tileset firstgid="1" name="collidablesTileSet" tilewidth="32" tileheight="32" tilecount="12" columns="6">
+  <image source="collidablesTileSet.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="turretPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="turretPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="turretPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="turretPoint" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="map_lvl1" tilewidth="32" tileheight="32" tilecount="600" columns="30">
+  <image source="map_lvl1.png" width="960" height="640"/>
+ </tileset>
+ <layer name="bg" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwN04OyGAYAAMHX2LZt27Ztq7Ft27Zt23bS2LZtdGduP+HCBgQEhCM8EYhIJCIThahEIzoxiEksYhOHuMQjPglISCISk4SkJCM5KUhJKlKThrSkIz0ZyEgmMpOFrGQjOznISS5yk4e85CM/BShIIQpThKIUozglKEkpSlOGspSjPBWoSCUqU4WqVKM6NahJLWpTh7rUoz4NaEgjGtOEpjTjX5rTgpa0ojVtaEs72tOBjnSiM13oSje604Oe9KI3fehLP/ozgIEMYjBDGMowhjOCkYxiNGMYyzjGM4GJTGIyU5jKNKYzg5nMYjZzmMs85rOAhSxiMUtYyjKWs4KVrGI1a1jLOtazgY1sYjNb2Mo2trODnexiN3vYyz72c4CDHOIwRzjKMY5zgpOc4jRnOMs5zvMfF7jIJS5zhatc4zo3uMktbnOHu9zjPg94yCMe84SnPOM5L3jJK17zhre84z0f+MgnPvOFr3zjOz/4yS9+84e/BPwjAhGYIAQlGMEJQUhCEZowhCUc4YlARCIRmShEJRrRiUFMYhGbOMQlHvFJQEISkZgkJCUZyUlBSlKRmjSkJR3pyUBGMpGZLGQlG9nJQU5ykZs85CUf+SlAQQpRmCIUpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzrUpR71aUBDGtGYJjSlGf/SnBa0pBWtaUNb2tGeDnSkE53pQle60Z0e9KQXvelDX/rRnwEMZBCDGcJQhjGcEYxkFKMZw1jGMZ4JTGQSk5nCVKYxnRnMZBazmcNc5jGfBSxkEYtZwlKWsZwVrGQVq1nDWtaxng1sZBOb2cJWtrGdHexkF7vZw172sZ8DHOQQhznCUY5xnBOc5BSnOcNZznGe/7jARS5xmStc5RrXucFNbnGbO9zlHvd5wEMe8ZgnPOUZz3nBS17xmje85R3v+cBHPvGZL3zlG9/5wU9+8Zs//CUgkP8JRGCCEJRgBCcEIQlFaMIQlnCEJwIRiURkohCVaEQnBjGJRWziEJd4xCcBCUlEYpKQlGQkJwUpSUVq0pCWdKQnAxnJRGaykJVsZCcHOclFbvKQl3zkpwAFKURhilCUYhSnBCUpRWnKUJZylKcCFalEZapQlWpUpwY1qUVt6lCXetSnAQ1pRGOa8D/ijRRG
+  </data>
+ </layer>
+ <objectgroup name="path" offsetx="0.3125" offsety="0.0104167">
+  <object id="4" x="310.667" y="1.33333" height="1.33333"/>
+  <object id="6" x="288" y="0" width="31.75" height="31.875"/>
+  <object id="11" x="512" y="416" width="31.5" height="32"/>
+  <object id="12" x="480" y="448" width="31.8182" height="32"/>
+  <object id="13" x="480" y="608" width="32.75" height="32.25"/>
+  <object id="16" x="673" y="192" width="31" height="32"/>
+  <object id="17" x="704" y="224" width="31.5" height="31"/>
+  <object id="19" x="704" y="384" width="31.6667" height="31.3333"/>
+  <object id="20" x="672" y="416" width="31.4545" height="31.8182"/>
+  <object id="22" x="288" y="160" width="31.6667" height="32.3333"/>
+  <object id="23" x="320" y="192" width="32" height="31.6667"/>
+ </objectgroup>
+ <layer name="collidable" width="30" height="20" opacity="0.68" offsetx="0" offsety="-1">
+  <data encoding="base64" compression="zlib">
+   eJytVdEKxCAMa/di//+Lj4MJuZh051AIjs01aRs1IyIJFwAHr3uLb9wB4G9FvLjuMhgPQN66nxPm+XwiX9SVNDswbwG6/xRK8JYA8w6zbgeONyn+iYEcqpdYu8l9YmAe6KvOY6d4Z2zlJ9SFGhRUvZxWx1mx1tvxoi6umeuN8usl4mDu7Dt8P8Fxd3gzVh3KZzhj3zpe1qrqzB5Tddn1uesv9wl9wvwneHkf89mdsXK/OU+4Z1hfdde4/rn7ArWqPVPxy6vuQQZr4Hz4XnX7AH2iPKrwlG9SLDXjefkvunxdzTodu1C81cRTvB9X4wgj
+  </data>
+ </layer>
+ <objectgroup name="buildingPoint">
+  <object id="29" x="416" y="76" width="32" height="32"/>
+  <object id="30" x="624" y="305" width="32" height="32"/>
+  <object id="31" x="842" y="288.33" width="32" height="32"/>
+  <object id="32" x="384" y="448.33" width="32" height="32"/>
+ </objectgroup>
+</map>
